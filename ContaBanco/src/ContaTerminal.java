@@ -14,7 +14,7 @@ public class ContaTerminal {
         
         System.out.print("Digite o número da conta: ");
         int numeroConta = scanner.nextInt();
-        scanner.nextLine(); // Consumir a quebra de linha
+        scanner.nextLine();
 
         System.out.print("Digite o nome da agência: ");
         String agencia = scanner.nextLine();
@@ -25,7 +25,7 @@ public class ContaTerminal {
         System.out.print("Digite o saldo da conta: ");
         double saldo = scanner.nextDouble();
 
-        contaTerminal conta = new ContaTerminal();
+        ContaTerminal conta = new ContaTerminal();
         conta.numeroConta = numeroConta;
         conta.agencia = agencia;
         conta.nomeCliente = nomeCliente;
